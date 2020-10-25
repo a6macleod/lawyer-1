@@ -128,6 +128,28 @@ table {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2em; }
+
+h3 {
+  font-size: 1.5em; }
+
+h4 {
+  font-size: 1.3em; }
+
+h5,
+p {
+  font-size: 1em; }
+
+h6 {
+  font-size: 0.8em; }
+
+p {
+  line-height: 1.2em; }
+
 header {
   max-width: 100%;
   background-color: #0d3b66;
@@ -159,5 +181,12 @@ header {
     font-size: 1.5em; }
   .logo-container .logo-text {
     font-size: 2em; }
+
+main {
+  background: linear-gradient(#fff, #eee);
+  height: 300px; }
+
+small {
+  color: #6c757d; }
 
 /*# sourceMappingURL=style.css.map */
