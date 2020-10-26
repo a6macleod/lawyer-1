@@ -89,6 +89,7 @@ header {
 // main content area
 main {
 	background: linear-gradient(#fff, #eee);
+	height: 110%;
 }
 
 .container {
@@ -169,5 +170,21 @@ small {
 
 // footer
 footer {
-	background-color: #f4d35e;
+	background-color: #eee;
+	padding: 30px;
+	border-top: solid 2px $muted-color;
+	text-align: center;
+	h3 {
+		padding: 20px 0;
+	}
+	li {
+		padding-bottom: 15px;
+	}
+	a {
+		color: $muted-color;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #000;
+	}
 }

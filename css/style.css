@@ -69,6 +69,7 @@ figcaption,
 footer,
 header,
 hgroup,
+main,
 menu,
 nav,
 output,
@@ -183,7 +184,8 @@ header {
     font-size: 2em; }
 
 main {
-  background: linear-gradient(#fff, #eee); }
+  background: linear-gradient(#fff, #eee);
+  height: 110%; }
 
 .container {
   margin: 0.5em;
@@ -244,6 +246,18 @@ small {
   display: flex; }
 
 footer {
-  background-color: #f4d35e; }
+  background-color: #eee;
+  padding: 30px;
+  border-top: solid 2px #6c757d;
+  text-align: center; }
+  footer h3 {
+    padding: 20px 0; }
+  footer li {
+    padding-bottom: 15px; }
+  footer a {
+    color: #6c757d;
+    text-decoration: none; }
+  footer a:hover {
+    color: #000; }
 
 /*# sourceMappingURL=style.css.map */
