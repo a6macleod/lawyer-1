@@ -93,6 +93,10 @@ main {
 
 .container {
 	margin: 0.5em;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+	max-width: 100%;
 }
 
 small {
@@ -101,17 +105,17 @@ small {
 
 .about {
 	display: flex;
-	max-width: 100%;
-	align-items: center;
+	max-width: 500px;
+	// margin-left: 10%;
 }
 
 .img-container {
-	width: 50%;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: start;
+	margin-right: 10px;
 	img {
-		width: 300px;
+		width: 100px;
 		border-radius: 10%;
 	}
 	img,
@@ -134,7 +138,7 @@ small {
 .about-text {
 	max-width: 500px;
 	h2 {
-		margin-bottom: 1.5em;
+		margin-bottom: 0.6em;
 	}
 	p {
 		line-height: 1.5em;
@@ -142,6 +146,21 @@ small {
 	}
 }
 
+.services-container {
+	text-align: center;
+	margin: 50px auto;
+	h2 {
+		margin-bottom: 1.2em;
+	}
+	li {
+		padding: 0.5em;
+		margin-left: 1em;
+	}
+	p {
+		font-size: 1.2em;
+	}
+}
+
 .services {
-	width: 100%;
+	display: flex;
 }

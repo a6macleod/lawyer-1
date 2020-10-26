@@ -186,23 +186,26 @@ main {
   background: linear-gradient(#fff, #eee); }
 
 .container {
-  margin: 0.5em; }
+  margin: 0.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  max-width: 100%; }
 
 small {
   color: #6c757d; }
 
 .about {
   display: flex;
-  max-width: 100%;
-  align-items: center; }
+  max-width: 500px; }
 
 .img-container {
-  width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: start;
+  margin-right: 10px; }
   .img-container img {
-    width: 300px;
+    width: 100px;
     border-radius: 10%; }
   .img-container img,
   .img-container figcaption {
@@ -220,12 +223,23 @@ small {
 .about-text {
   max-width: 500px; }
   .about-text h2 {
-    margin-bottom: 1.5em; }
+    margin-bottom: 0.6em; }
   .about-text p {
     line-height: 1.5em;
     margin-bottom: 1em; }
 
+.services-container {
+  text-align: center;
+  margin: 50px auto; }
+  .services-container h2 {
+    margin-bottom: 1.2em; }
+  .services-container li {
+    padding: 0.5em;
+    margin-left: 1em; }
+  .services-container p {
+    font-size: 1.2em; }
+
 .services {
-  width: 100%; }
+  display: flex; }
 
 /*# sourceMappingURL=style.css.map */
