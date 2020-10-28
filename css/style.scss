@@ -152,6 +152,7 @@ small {
 
 // services section
 .services-container {
+	position: relative;
 	text-align: center;
 	h2 {
 		margin-bottom: 1.2em;
@@ -171,12 +172,20 @@ small {
 
 .services::before {
 	content: "";
-	width: 400px;
-	border-top: solid 1px #000;
+	width: 90%;
+	border-top: solid 1px $muted-color;
 	position: absolute;
-	// left: 20px;
-	// top: 50%;
 	z-index: 1;
+	top: 20%;
+	margin-bottom: 2em;
+}
+.services::after {
+	content: "";
+	width: 90%;
+	border-bottom: solid 1px $muted-color;
+	position: absolute;
+	z-index: 1;
+	bottom: 15%;
 }
 
 // footer
