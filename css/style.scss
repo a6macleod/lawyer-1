@@ -189,6 +189,61 @@ small {
 	bottom: 15%;
 }
 
+// Form section
+.contact-form {
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	h3 {
+		padding-bottom: 3%;
+	}
+	form {
+		display: flex;
+		max-width: 100%;
+		justify-content: center;
+	}
+	.input-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.input {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		padding: 0.4em;
+	}
+	label {
+		padding-bottom: 0.2em;
+	}
+	.required {
+		font-size: 0.8em;
+		color: red;
+	}
+	.small {
+		font-size: 0.8em;
+		color: $muted-color;
+	}
+	.text-input {
+		height: 2.5em;
+		width: 400px;
+	}
+	input[type="submit"] {
+		width: 200px;
+		align-self: center;
+		margin-top: 0.6em;
+		background-color: $primary;
+		color: $primary-text;
+		font-weight: bold;
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		border-radius: 5px;
+	}
+	input[type="submit"]:hover {
+		color: $primary;
+		background-color: #faf0ca;
+	}
+}
+
 // footer
 footer {
 	padding: 30px;

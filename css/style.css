@@ -265,6 +265,49 @@ small {
   z-index: 1;
   bottom: 15%; }
 
+.contact-form {
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%; }
+  .contact-form h3 {
+    padding-bottom: 3%; }
+  .contact-form form {
+    display: flex;
+    max-width: 100%;
+    justify-content: center; }
+  .contact-form .input-container {
+    display: flex;
+    flex-direction: column; }
+  .contact-form .input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.4em; }
+  .contact-form label {
+    padding-bottom: 0.2em; }
+  .contact-form .required {
+    font-size: 0.8em;
+    color: red; }
+  .contact-form .small {
+    font-size: 0.8em;
+    color: #6c757d; }
+  .contact-form .text-input {
+    height: 2.5em;
+    width: 400px; }
+  .contact-form input[type="submit"] {
+    width: 200px;
+    align-self: center;
+    margin-top: 0.6em;
+    background-color: #0d3b66;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 5px; }
+  .contact-form input[type="submit"]:hover {
+    color: #0d3b66;
+    background-color: #faf0ca; }
+
 footer {
   padding: 30px;
   text-align: center; }
