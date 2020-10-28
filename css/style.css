@@ -284,7 +284,8 @@ small {
     align-items: flex-start;
     padding: 0.4em; }
   .contact-form label {
-    padding-bottom: 0.2em; }
+    padding-bottom: 0.2em;
+    font-size: 1.2em; }
   .contact-form .required {
     font-size: 0.8em;
     color: red; }
