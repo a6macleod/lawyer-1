@@ -193,15 +193,16 @@ main {
   justify-content: space-evenly;
   align-items: stretch;
   max-width: 100%;
-  padding-bottom: 2em; }
+  padding-top: 2em;
+  padding-bottom: 4em; }
 
 small {
   color: #6c757d; }
 
 .about {
   display: flex;
-  max-width: 500px;
-  margin-top: 1em; }
+  align-items: stretch;
+  max-width: 500px; }
 
 .img-container {
   display: flex;
@@ -245,10 +246,15 @@ small {
 .services {
   display: flex; }
 
+.services::before {
+  content: "";
+  width: 400px;
+  border-top: solid 1px #000;
+  position: absolute;
+  z-index: 1; }
+
 footer {
-  background-color: #eee;
   padding: 30px;
-  border-top: solid 2px #6c757d;
   text-align: center; }
   footer h3 {
     padding: 20px 0; }

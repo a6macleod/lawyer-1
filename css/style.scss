@@ -98,7 +98,8 @@ main {
 	justify-content: space-evenly;
 	align-items: stretch;
 	max-width: 100%;
-	padding-bottom: 2em;
+	padding-top: 2em;
+	padding-bottom: 4em;
 }
 
 small {
@@ -108,8 +109,8 @@ small {
 // About section
 .about {
 	display: flex;
+	align-items: stretch;
 	max-width: 500px;
-	margin-top: 1em;
 }
 
 .img-container {
@@ -168,11 +169,19 @@ small {
 	display: flex;
 }
 
+.services::before {
+	content: "";
+	width: 400px;
+	border-top: solid 1px #000;
+	position: absolute;
+	// left: 20px;
+	// top: 50%;
+	z-index: 1;
+}
+
 // footer
 footer {
-	background-color: #eee;
 	padding: 30px;
-	border-top: solid 2px $muted-color;
 	text-align: center;
 	h3 {
 		padding: 20px 0;
